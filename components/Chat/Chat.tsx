@@ -394,6 +394,8 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                       <div>
                         <Spinner size="16px" className="mx-auto" />
                       </div>
+                    ) : process.env.NEXT_PUBLIC_NAME ? (
+                      process.env.NEXT_PUBLIC_NAME
                     ) : (
                       'Chatbot UI'
                     )}
