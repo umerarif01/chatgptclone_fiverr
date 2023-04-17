@@ -218,7 +218,7 @@ export const Chatbar = () => {
       }}
     >
       <Sidebar<Conversation>
-        side={'left'}
+        side={'right'}
         isOpen={showChatbar}
         addItemButtonTitle={t('New chat')}
         itemComponent={<Conversations conversations={filteredConversations} />}
