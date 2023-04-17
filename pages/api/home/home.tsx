@@ -356,7 +356,11 @@ const Home = ({
       }}
     >
       <Head>
-        <title>Chatbot UI</title>
+        <title>
+          {process.env.NEXT_PUBLIC_NAME
+            ? process.env.NEXT_PUBLIC_NAME
+            : 'Chatbot UI'}
+        </title>
         <meta name="description" content="ChatGPT but better." />
         <meta
           name="viewport"
