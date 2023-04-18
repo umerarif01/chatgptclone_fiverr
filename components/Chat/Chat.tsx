@@ -357,12 +357,12 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
 
           <div className="text-center text-gray-500 dark:text-gray-400">
             <div className="mb-2">
-              Built on the Same Powerful Model! It does everything ChatGPT does,
+              {`Built on the Same Powerful Model! It does everything ChatGPT does,
               with advanced language processing, insightful suggestions, and
               even creative content generation. It's exclusively yours, with a
               secure API key stored locally for worry-free conversations. Let's
               get started and explore the endless possibilities of this amazing
-              conversational AI.
+              conversational AI.`}
             </div>
 
             <div>
