@@ -352,20 +352,23 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
       {!(apiKey || serverSideApiKeyIsSet) ? (
         <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
           <div className="text-center text-4xl font-bold text-black dark:text-white">
-            Welcome to{' '}
-            {process.env.NEXT_PUBLIC_NAME
-              ? process.env.NEXT_PUBLIC_NAME
-              : 'Chatbot UI'}
+            Welcome to Your Personal AI Companion: Your Own Copy of ChatGPT
           </div>
 
           <div className="text-center text-gray-500 dark:text-gray-400">
             <div className="mb-2">
-              {t(
-                'Please set your OpenAI API key in the bottom left of the sidebar.',
-              )}
+              Built on the Same Powerful Model! It does everything ChatGPT does,
+              with advanced language processing, insightful suggestions, and
+              even creative content generation. It's exclusively yours, with a
+              secure API key stored locally for worry-free conversations. Let's
+              get started and explore the endless possibilities of this amazing
+              conversational AI.
             </div>
+
             <div>
-              {t("If you don't have an OpenAI API key, you can get one here: ")}
+              {t(
+                "Please set your OpenAI API key in the bottom right of the sidebar. If you don't have an OpenAI API key, you can get one here: ",
+              )}
               <a
                 href="https://platform.openai.com/account/api-keys"
                 target="_blank"
