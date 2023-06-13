@@ -8,7 +8,7 @@ Use the Google Search API to search the web in Chatbot UI.
 
 2. Create a new API key at https://console.developers.google.com/apis/credentials
 
-3. Enable the Custom Search API at https://console.developers.google.com/apis/library/customsearch.googleapis.com
+3. Enable the Custom Search API at https://console.developers.google.com/apis/library/customsearch.googleapis.com 
 
 4. Create a new Custom Search Engine at https://cse.google.com/cse/all
 
